@@ -1,0 +1,18 @@
+.searchbar {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+nav {
+	position: fixed;	
+	height: 50px;
+	width: 100%;
+	background-color: #F8F8FF;
+}
+nav ul, nav li {
+	display: inline-block;
+}
+
+main {
+	padding-top: 100px;
+}
