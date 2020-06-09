@@ -2,17 +2,28 @@
     background-color: white;
 }
 
-body {
+/*body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: turquoise;
-}
+}*/
 
 nav {
     position: fixed;
     height: 50px;
     width: 100%;
-    background-color: #F8F8FF;
+    background-color: #283238;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*unvisited link*/
+a:link {
+    color: white
+}
+
+/*visited link*/
+a:visited {
+    color: white
 }
 
 nav ul, nav li {
