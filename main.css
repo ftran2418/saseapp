@@ -7,8 +7,20 @@ nav {
 	position: fixed;
 	height: 50px;
 	width: 100%;
-	background-color: #F8F8FF;
+	background-color: #0668B3;
+	font-family: 'Lato', 'sans-serif';
 }
+
+/*unvisited link*/
+a:link {
+    color: white
+}
+
+/*visited link*/
+a:visited {
+    color: white
+}
+
 nav ul, nav li {
 	display: inline-block;
 }

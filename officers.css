@@ -12,18 +12,8 @@ nav {
     position: fixed;
     height: 50px;
     width: 100%;
-    background-color: #283238;
+    background-color: #0668B3;
     font-family: 'Times New Roman', Times, serif;
-}
-
-/*unvisited link*/
-a:link {
-    color: white
-}
-
-/*visited link*/
-a:visited {
-    color: white
 }
 
 nav ul, nav li {
