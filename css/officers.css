@@ -1,0 +1,27 @@
+:root {
+    background-color: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+.header {
+    background-image: url(../img/banner_officers.jpg);
+    height: 400px;
+	width: 86vw;
+	padding: 0 7%;
+	display: flex;
+	justify-items: left;
+	color: #fff;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.officer-intro {
+    padding: 40px 5% 0 5%;
+}
