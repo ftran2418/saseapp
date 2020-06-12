@@ -11,7 +11,7 @@ body {
 .header {
     background-image: url(../img/banner_officers.jpg);
     height: 400px;
-	width: 85.11vw;
+	width: 85vw;
 	padding: 0 7%;
 	display: flex;
 	justify-items: left;
@@ -26,12 +26,12 @@ body {
     padding: 40px 5% 0 5%;
 }
 
-.leads {
+.officer-section {
     background-image: url(../img/sase.jpg);
     height: 200px;
-    width: 86vw;
-    padding-left: 3.36vw;
-    padding-right: 3.35vw;
+    width: 85.8vw;
+    padding-left: 3.3vw;
+    padding-right: 3.3vw;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 30px;
