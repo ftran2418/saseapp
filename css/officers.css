@@ -27,7 +27,9 @@ body {
 }
 
 .officer-section {
-    background-image: url(../img/sase.jpg);
+    /*add background later, background color is temp*/
+    background-color: #7DC242;
+    /*background-image: url(../img/sase.jpg);*/
     height: 200px;
     width: 85.8vw;
     padding-left: 3.3vw;
