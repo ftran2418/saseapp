@@ -28,7 +28,8 @@ body {
 
 .officer-section {
     /*add background later, background color is temp*/
-    background-color: #7DC242;
+    /*background-color: #7DC242;*/
+    background-color: #283238;
     /*background-image: url(../img/sase.jpg);*/
     height: 200px;
     width: 85.8vw;
@@ -37,7 +38,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 30px;
-    color: #283238;
+    /*color: #283238;*/
+    color: #fff;
     align-items: flex-end;
     margin: auto;
     margin-top: 20px;
