@@ -1,0 +1,21 @@
+th, p, h1 {
+    text-align: center;
+    font-family: sans-serif;
+  }
+  th {
+      padding: 5px;
+      font-weight: bold;
+  }
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 26pt;
+  }
+  h1 {
+    color : #66A1E5;
+    width : "50%";
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 40pt;
+    margin-bottom: 25px;
+  }
