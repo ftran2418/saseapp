@@ -18,7 +18,7 @@ a:link {
 
 /*visited link*/
 a:visited {
-    color: white
+    color: white;
 }
 
 nav ul, nav li {
@@ -26,5 +26,40 @@ nav ul, nav li {
 }
 
 main {
-	padding-top: 100px;
+	height: 100%;
+	width: 100%;
+}
+
+.left-block {
+	position: relative;
+	display: inline-block;
+	height: 75%;
+	width: 40%;
+	top: 75px;
+	text-align: center;
+	vertical-align: top;
+	z-index: -1;
+}
+
+.right-block {
+	position: relative;
+	display: inline-block;
+	height: 75%;
+	width: 60%;
+	top: 50px;
+	font-size: 0px;
+	margin-right: -4px;
+	vertical-align: top;
+	z-index: -1;
+}
+
+.presentation {
+	max-width: 100%;
+	height: auto;
+}
+
+footer {
+	display: block;
+	position: relative;
+	top: 95%;
 }
