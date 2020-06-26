@@ -1,56 +1,63 @@
 .searchbar {
-	padding-left: 50px;
-	padding-right: 50px;
+	display: flex;
+	align-items: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 100px;
+	width: 100%;
 }
 
 nav {
 	position: fixed;
-	height: 50px;
-	width: 100%;
 	background-color: #0668B3;
+	font-size: 24px;
 	font-family: 'Lato', 'sans-serif';
-}
-
-/*unvisited link*/
-a:link {
-    color: white
-}
-
-/*visited link*/
-a:visited {
-    color: white;
+	z-index: 1;
 }
 
 nav ul, nav li {
 	display: inline-block;
+	padding-right: 20px;
 }
 
-main {
-	height: 100%;
-	width: 100%;
+/*unvisited link*/
+nav a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/*visited link*/
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 4fr 6fr; 
+	grid-template-rows: 100px 1fr 100px;
+	grid-template-areas:
+		"topside topside"
+		"leftside rightside"
+		"botside botside";
+}
+
+.top {
+	grid-area: topside;
 }
 
 .left-block {
-	position: relative;
-	display: inline-block;
-	height: 75%;
-	width: 40%;
-	top: 75px;
+	grid-area: leftside;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-align: center;
-	vertical-align: top;
-	z-index: -1;
+	font-size: 18px;
 }
 
 .right-block {
-	position: relative;
-	display: inline-block;
-	height: 75%;
-	width: 60%;
-	top: 50px;
+	grid-area: rightside;
 	font-size: 0px;
-	margin-right: -4px;
-	vertical-align: top;
-	z-index: -1;
 }
 
 .presentation {
@@ -58,8 +65,19 @@ main {
 	height: auto;
 }
 
+.bot {
+	grid-area: botside;
+	padding-left: 25px;
+}
+
 footer {
-	display: block;
-	position: relative;
-	top: 95%;
+	display: flex;
+	align-items: center;
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 100px;
+	width: 100%;
+	background-color: #0668B3;
+	font-size: 24px;
+	font-family: 'Lato', 'sans-serif';
 }
