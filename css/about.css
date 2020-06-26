@@ -1,21 +1,137 @@
-th, p, h1 {
+.right {
+    position: relative;
+    z-index: -1;
+    display: block;
+    float: right;
+    width: 100%;
+    margin-top: 75px;
+    margin-right: 100px;
+}
+
+.top {
+    position: relative;
+    top: 50px;
+    z-index: -1;
+    display: block;
+    width: 10%;
+}
+
+.tableData {
+    width: 33%;
+}
+
+.ABOUT {
+    position: relative;
+    top: 50px;
+    z-index: -1;
+    display: block;
+    text-align: LEFT;
+    font-family: Arial;
+    color: #0668B3;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 40pt;
+    margin-bottom: 60px;
+    display: block;
+}
+
+.images {
+    position: relative;
+    top: 50px;
+    z-index: -1;
+    display: block;
+}
+
+.footer {
+    position: relative;
+    top: 50px;
+    z-index: -1;
+    display: block;
+}
+
+.theader {
+    position: relative;
     text-align: center;
     font-family: sans-serif;
-  }
-  th {
-      padding: 5px;
-      font-weight: bold;
-  }
-  p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 100px;
+    top: 25px;
+
+}
+
+.paragraph {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
     line-height: 26pt;
-  }
-  h1 {
-    color : #66A1E5;
-    width : "50%";
-    font-size: 40px;
+    top: 10px;
+}
+
+.Ltheader {
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 35px;
     font-weight: bold;
-    line-height: 40pt;
-    margin-bottom: 25px;
-  }
+
+}
+
+.Lparagraph {
+    position: relative;
+    z-index: -1;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 26pt;
+}
+
+.topHead {
+    width: 50%;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    
+    /* border: 1px solid black; */
+}
+
+.topHead2 {
+    width: 50%;
+    overflow: hidden;
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    /* border: 1px solid black; */
+}
+
+.topHeadPic {
+    width: 450px;
+    
+    vertical-align: middle;
+}
+
+.break {
+    margin-top: 55px;
+    margin-bottom: -40px;
+}
+
+.blue {
+    color: #0668B3;
+}
+
+.green {
+    color: #7DC242;
+}
+
+.bottom {
+    position: relative;
+    top: 50px;
+    width: 100%;
+}
