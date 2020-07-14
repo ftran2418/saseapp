@@ -10,8 +10,9 @@ body {
 
 .header {
     background-image: url(../img/events.jpg);
-    height: 400px;
-	width: 85vw;
+    height: 500px;
+    width: 85vw;
+    /* top: 50px; */
 	padding: 0 7%;
 	display: flex;
 	justify-items: left;
@@ -20,4 +21,34 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+nav {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	background-color: #0668B3;
+    font-family: 'Lato', 'sans-serif';
+    z-index: 1;
+}
+
+.searchbar {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+nav ul, nav li {
+	display: inline-block;
+}
+
+.events {
+    margin-left: 100px; 
+    margin-right: 100px; 
+    text-align: center;
+}
+
+.google_cal{
+    border: 0;
+    width: 600px; 
+    height: 400px; 
 }
