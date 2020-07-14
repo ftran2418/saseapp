@@ -1,19 +1,82 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
+    background-color: #fff;
 }
 
 .header {
     background-image: url(../img/sponsor.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 10%;
+    background-position-x: left;
+
     height: 400px;
-	width: 86vw;
-	padding: 0 7%;
+	width: 85.05vw;
+    padding: 0 7%;
 	display: flex;
 	justify-items: left;
 	color: #fff;
     align-items: flex-end;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+}
+
+.header h1 {
+    font-size: 56px;
+}
+
+.sponsor-content {
+    display: grid;
+    padding: 20px 7%;
+    grid-template-columns: 1.5fr 3fr;
+}
+
+.button {
+    justify-self: center;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+
+    background-color: #0668b3;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition-property: border, background-color;
+    transition-duration: 0.3s, 0.3s;
+    transition-timing-function: ease-in, ease-in;
+    transition-delay: 0s, 0s;
+    margin: 15px 3px;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free";
+
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    box-sizing: border-box !important;
+}
+
+.sponsor {
+    padding: 20px;
+}
+
+.responsive-img {
+    display: block;
+    object-fit: contain;
 }
